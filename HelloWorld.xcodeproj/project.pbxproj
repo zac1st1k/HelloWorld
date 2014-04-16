@@ -20,8 +20,8 @@
 		1165974118F295C9003464DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1165974018F295C9003464DE /* XCTest.framework */; };
 		1165974218F295C9003464DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1165971E18F295C9003464DE /* Foundation.framework */; };
 		1165974318F295C9003464DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1165972218F295C9003464DE /* UIKit.framework */; };
-		1165974B18F295C9003464DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1165974918F295C9003464DE /* InfoPlist.strings */; };
 		1165974D18F295C9003464DE /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1165974C18F295C9003464DE /* HelloWorldTests.m */; };
+		116892B218F3BD3A00C45EEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1165974918F295C9003464DE /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,7 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1165974B18F295C9003464DE /* InfoPlist.strings in Resources */,
+				116892B218F3BD3A00C45EEC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +471,7 @@
 				1165975218F295C9003464DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1165975318F295C9003464DE /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				1165975518F295C9003464DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
